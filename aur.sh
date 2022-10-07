@@ -1,8 +1,8 @@
 sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
+git clone https://aur.archlinux.org/paru.git
+cd paru
 makepkg -si
 cd 
 cd arch-post-setup
-sudo rm -r yay
+sudo rm -r paru
 echo "Instalation complete!" 
