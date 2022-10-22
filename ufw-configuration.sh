@@ -1,5 +1,5 @@
 # Installing & Enabling UFW
-sudo pacman -S --nconfirm ufw
+sudo pacman -Syyu --noconfirm ufw
 sudo systemctl enable ufw
 sudo systemctl start ufw
 sudo ufw enable
