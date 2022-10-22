@@ -13,4 +13,6 @@ paru -S --noconfirm ttf-ms-fonts
 clear
 # Clearing cache
 paru -Sc
+clear
+echo "Instalation Complete!"
 
