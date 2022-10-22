@@ -17,5 +17,7 @@ clear
 # Enabling SDDM & clearing pacman's cache
 sudo systemctl enable sddm
 sudo pacman -Sc
+# Setting the correct SDDM theme
+sudo kwriteconfig5 --file /etc/sddm.conf.d/kde_settings.conf --group Theme --key "Current" "breeze"
 echo "Instalation Complete!"
 reboot
