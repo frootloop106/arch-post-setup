@@ -11,8 +11,8 @@ sudo pacman -S --noconfirm noto-fonts-emoji
 clear
 sudo pacman -S --noconfirm noto-fonts-cjk
 clear
-# Installing Firefox
-sudo pacman -S --nconfirm firefox
+# Installing Librewolf
+paru -S --nconfirm librewolf-bin
 clear
 # Enabling SDDM & clearing pacman's cache
 sudo systemctl enable sddm
