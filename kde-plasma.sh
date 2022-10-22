@@ -6,6 +6,11 @@ clear
 # Installing the packages
 sudo pacman -S --noconfirm ark dolphin flameshot kcalc konsole kate libreoffice-fresh vlc
 clear
+# Installing Emoji and CJK font support
+sudo pacman -S --noconfirm noto-fonts-emoji
+clear
+sudo pacman -S --noconfirm noto-fonts-cjk
+clear
 # Installing Firefox
 sudo pacman -S --nconfirm firefox
 clear
