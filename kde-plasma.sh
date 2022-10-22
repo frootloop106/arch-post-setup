@@ -12,4 +12,5 @@ clear
 # Enabling SDDM & clearing pacman's cache
 sudo systemctl enable sddm
 sudo pacman -Sc
+echo "Instalation Complete!"
 reboot
