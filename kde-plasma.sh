@@ -1,5 +1,5 @@
 # Installing the desktop
-sudo pacman -S --noconfirm plasma ffmpegthumb
+sudo pacman -S --noconfirm plasma ffmpegthumbs
 # Removing the unneeded packages
 sudo pacman -R --noconfirm plasma-sdk discover
 clear
