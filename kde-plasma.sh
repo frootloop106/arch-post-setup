@@ -4,7 +4,7 @@ sudo pacman -S --noconfirm plasma
 sudo pacman -R --noconfirm plasma-sdk discover
 clear
 # Installing the packages
-sudo pacman -S --noconfirm ark dolphin flameshot kcalc konsole kate libreoffice-fresh vlc
+sudo pacman -S --noconfirm ark dolphin flameshot kcalc konsole kate libreoffice-fresh vlc ffmpegthumbs
 clear
 # Installing Emoji and CJK font support
 sudo pacman -S --noconfirm noto-fonts-emoji
