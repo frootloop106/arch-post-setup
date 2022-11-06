@@ -10,6 +10,7 @@ cd arch-post-setup
 sudo rm -r yay
 clear
 # Installing MS FONTS
-yay -S --noconfirm ttf-ms-fonts
+yay -S --noconfirm ttf-ms-fonts\
+clear
 echo "Instalation Complete!"
 
