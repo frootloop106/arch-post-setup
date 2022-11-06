@@ -12,7 +12,7 @@ clear
 sudo pacman -S --noconfirm noto-fonts-cjk
 clear
 # Installing Web Browser
-sudo pacman -S --noconfirm firefox
+yay -S --noconfirm brave-bin
 clear
 # Enabling SDDM & clearing pacman's cache
 sudo systemctl enable sddm
