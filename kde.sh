@@ -4,7 +4,7 @@ sudo pacman -S --noconfirm plasma
 sudo pacman -R --noconfirm plasma-sdk discover
 clear
 # Installing the packages
-sudo pacman -S --noconfirm ark dolphin flameshot kcalc konsole kate libreoffice-fresh vlc ffmpegthumbs
+sudo pacman -S --noconfirm ark dolphin flameshot kcalc konsole kate libreoffice-fresh vlc ffmpegthumbs gwenview
 clear
 # Installing Emoji and CJK font support
 sudo pacman -S --noconfirm noto-fonts-emoji
@@ -16,6 +16,8 @@ yay -S --noconfirm brave-bin
 clear
 # Enabling SDDM & clearing pacman's cache
 sudo systemctl enable sddm
+# Clearing Cache
 sudo pacman -Sc
+clear
 echo "Instalation Complete!"
 reboot
