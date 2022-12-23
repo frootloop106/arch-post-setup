@@ -12,12 +12,10 @@ clear
 sudo pacman -S --noconfirm noto-fonts-cjk
 clear
 # Installing Web Browser
-yay -S --noconfirm brave-bin
+sudo pacman -S --noconfirm firefox
 clear
 # Enabling SDDM & clearing pacman's cache
 sudo systemctl enable sddm
-# Clearing Cache
-sudo pacman -Sc
 clear
 echo "Instalation Complete!"
 reboot
